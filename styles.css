@@ -1,0 +1,53 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Crimson Pro', serif;
+    display: grid;
+    grid-template-areas: "header"
+                        "nav"
+                        "main"
+                        "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 5% 1fr 5%;
+    gap: 8px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 2em;
+    background-color: #857ea5;
+    color:black;
+    padding: 1px 20px 1px 20px;
+    border-radius: 5px;
+    font-size: 25px;
+
+}
+
+.active {
+    background-color: #e07923;
+}
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
