@@ -158,4 +158,6 @@ main #servicios .serv_cont_cuadros article .boton_ver {
 }
 footer {
     grid-area: footer;
+    border: solid 1px;
+    text-align: center;
 }
