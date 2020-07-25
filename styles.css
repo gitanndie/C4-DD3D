@@ -157,6 +157,12 @@ main #servicios .serv_cont_cuadros article .boton_ver {
 }
 footer {
     grid-area: footer;
+    margin: 5px;
     border: solid 1px;
     text-align: center;
+}
+
+main #coti1 {
+    display: flex;
+
 }
