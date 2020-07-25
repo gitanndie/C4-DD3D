@@ -52,7 +52,6 @@ main {
 main #sec-quien-soy {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
 
 main #sec-quien-soy article {
