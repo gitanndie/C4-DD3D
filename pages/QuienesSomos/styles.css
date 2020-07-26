@@ -142,7 +142,9 @@ main #tab-herramientas {
 }
 
 footer {
-    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
     text-align: center;
-    margin-bottom: 10px;
+    
 }
