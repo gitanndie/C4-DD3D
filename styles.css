@@ -66,7 +66,6 @@ main #sec-quien-soy #foto-quien {
     text-align: center;
 }
 
-
 main #sec-quien-soy #art-quien div hr {
     margin: auto;
     width: 40%;
@@ -77,13 +76,13 @@ main #sec-quien-soy #foto-quien h3 {
     /* margin: auto; */
     display: flex;
     margin: 50px;
-    
+
 }
 
 main #sec-quien-soy #art-quien p {
     text-align: justify;
     display: flex;
-    margin: 20px;   
+    margin: 20px;
 }
 
 main #a-que-me-dedico h3 {
@@ -197,8 +196,7 @@ main #herramientas #tbl_herramientas tr td #herrmt_img_corel {
 
 main #herramientas #tbl_herramientas tr td #herrmt_img_ilustrator {
     margin: 50px 15px 50px 15px;
-    /* height: 70%;
-    width: 90% */;
+
 }
 
 footer {
