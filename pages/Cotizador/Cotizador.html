@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Diseño Digital 3D" />
+    <meta name="description"
+        content="Somos uno empresa Colombiana de Innovación y Diseño Digital ubicada en Medellín, Antioquía.
+    Con más de 10 años acumulados de experiencia en el desarrollo de diseños digitales y otras herramientas de Tecnología, Entornos Web y Desarrollo Móvil." />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cotizador</title>
+</head>
+
+<body>
+    <header>
+        <img src="/imagenes/logo.png" alt="logo de DD3D" title="Logo de DD3D">
+    </header>
+    <nav>
+        <ul>
+            <li><a class="active" href="/index.html">CEO</a></li>
+            <li><a class="quienes-somos" href="../QuienesSomos/QuienesSomos.html">Nuestra Empresa</a></li>
+            <li><a class="cotizador" href="../Cotizador/Cotizador.html">Cotizador</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="sec-cotiza">
+            <article id="art-cotiza">
+                <h3>Realice la cotización de un pedido, con el valor unitario que usted concidere conveniente</h3>
+                <form>
+                    <div class="form-cotiza">
+                        <label for="cantidad">Cantidad</label>
+                    </div>
+                    <div>
+                        <input type="cantidad" class="form-control" id="cantidad" placeholder="Cantidad">
+                    </div>
+                    <div class="form-cotiza">
+                        <label for="valorunitario">Valor unitario</label>
+                    </div>
+                    <div>
+                        <input type="number" class="form-control" id="valorunitario" placeholder="Valor unitario">
+                    </div>
+                    <div class="form-cotiza">
+                        <label for="Valor">Valor</label>
+                    </div>
+                    <div>
+                        <input type="number" class="form-control" id="valor" placeholder="Valor">
+                    </div>
+                    <div class="form-cotiza">
+                        <label for="Desc">Descripcion del pedido</label>
+                    </div>
+                    <div>
+                        <textarea class="form-control" id="Desc" rows="3"
+                            placeholder="Descripcion del pedido"></textarea>
+                    </div>
+                </form>
+                <button id="boton-enviar" type="submit">Enviar</button>
+            </article>
+
+            <footer class="mi_borde">
+                <p>Copyright© 2020 | Medellin - Antioquia, Colombia | Nuestra Empresa | Contacto </p>
+            </footer>
+
+</body>
+
+</html>

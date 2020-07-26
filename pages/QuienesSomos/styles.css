@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(248, 244, 238);
+    font-family: 'Crimson Pro', serif;
+    display: grid;
+    grid-template-areas: "header"
+                        "nav"
+                        "main"
+                        "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 5% 1fr 5%;
+    gap: 8px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+    border: solid 2px black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 2em;
+    background-color: #857ea5;
+    color: black;
+    padding: 1px 20px 1px 20px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.active {
+    background-color: #e07923;
+}
+
+.mi_borde {
+    border: solid 1px black;
+}
+
+main {
+    grid-area: main;
+}
+
+main #sec-quienes-somos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main #sec-quienes-somos article {
+    border: solid 1px;
+}
+
+main #sec-quienes-somos #foto-oficina {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+main #sec-quienes-somos #art-quienes-somos {
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+}
+
+main #sec-quienes-somos #art-quienes-somos div hr {
+    margin: auto;
+    width: 20%;
+    float: left;
+}
+
+main #sec-quienes-somos #art-quienes-somos h3 {
+    text-align: justify;
+    
+}
+
+main #sec-quienes-somos #art-quienes-somos p {
+    text-align: center;
+}
+
+main #nuestro-equipo h3 {
+    margin: 3px;
+    text-align: center;
+
+}
+
+main #nuestro-equipo hr {
+    width: 15%;
+    margin: auto;
+}
+
+main #nuestro-equipo {
+    background-color: #7fa7dc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: solid black;
+}
+
+main section #nuestro-equipo {
+    display: flex;
+    width: 100px;
+    height: 150px;
+    display: grid;
+    grid-template-areas: "item1"
+                        "item2"
+                        "item3";
+    grid-column-start: 3;
+    /* grid-template-columns: 1fr; */
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    gap: 20px;
+}
+
+main #herramientas {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 1% 5% 1%;
+}
+
+main #herramientas h3 {
+    text-align: center;
+    color: black;
+}
+
+main #tab-herramientas {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    margin-bottom: 50px;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+    margin-bottom: 10px;
+}
