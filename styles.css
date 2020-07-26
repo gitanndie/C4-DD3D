@@ -45,6 +45,10 @@ nav ul li a {
     background-color: #e07923;
 }
 
+.mi_borde {
+    border: solid 1px black;
+}
+
 main {
     grid-area: main;
 }
@@ -62,9 +66,9 @@ main #sec-quien-soy #foto-quien {
     text-align: center;
 }
 
-main #sec-quien-soy #art-quien {
+/* main #sec-quien-soy #art-quien {
     padding: 5px;
-}
+} */
 
 main #sec-quien-soy #art-quien div hr {
     margin: auto;
@@ -78,6 +82,15 @@ main #sec-quien-soy #foto-quien h3 {
 
 main #sec-quien-soy #art-quien p {
     text-align: justify;
+}
+
+main #a-que-me-dedico h3 {
+    margin-bottom: 3px;
+}
+
+main #a-que-me-dedico hr {
+    width: 15%;
+    margin: auto;
 }
 
 main #a-que-me-dedico {
@@ -145,24 +158,43 @@ main #servicios .serv_cont_cuadros article .boton_ver {
     align-self: center;
 }
 
-#herramientas {
-    text-align: center;
+main #servicios .serv_cont_cuadros article .boton_ver:hover {
+    box-shadow: 2px 2px 2px 1px black;
 }
 
-#tabla {
-    display: flex;
+main #herramientas {
+    background-color: #7fa7dc;
     text-align: center;
-    justify-content: center;
-    
+    display: flex;
+    flex-direction: column;
+    padding: 1% 1% 5% 1%;
 }
+
+main #herramientas h3 {
+    text-align: center;
+    color: white
+}
+
+main #herramientas #tbl_herramientas {
+    width: 60%;
+    align-self: center;
+}
+
+main #herramientas #tbl_herramientas tr td,
+th {
+    border: solid 1px;
+}
+
+main #herramientas #tbl_herramientas tr td #herrmt_img_photoshop {
+    width: 40%;
+}
+
+main #herramientas #tbl_herramientas tr td #herrmt_img_corel {
+    width: 50%;
+}
+
 footer {
     grid-area: footer;
-    margin: 5px;
-    border: solid 1px;
     text-align: center;
-}
-
-main #coti1 {
-    display: flex;
-
+    margin-bottom: 10px;
 }
