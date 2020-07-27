@@ -33,6 +33,7 @@ nav ul li a {
     border-radius: 5px;
     font-size: 25px;
 }
+
 .active {
     background-color: #e07923;
 }
@@ -41,27 +42,60 @@ nav ul li a {
     border: solid 1px black;
 }
 
-main #sec-cotiza h3 {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-main #sec-cotiza #art-cotiza {
-    text-align: center;
-
-}
-
-main form .form-cotiza {
-    display: list-item;
+main {
+    grid-area: main;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    margin-top: 5px;
+}
+
+#cotizador {
+    width: 300px;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    gap: 2px;
     margin-bottom: 20px;
+    /* justify-self: end; */
 
 }
 
-#boton-enviar {
-    padding: 10px;
-    margin-bottom: 110px;
+#labels {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
 }
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+input {
+    width: 140px;
+    margin: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 300px;
+}
+
+button {
+    margin: 15px 0px;
+}
+
 footer {
     display: flex;
     justify-content: center;
