@@ -88,12 +88,18 @@ p {
     margin-bottom: 10px;
 }
 
+#descripcion {
+    width: 350px;
+    margin: 5px;
+}
+
 textarea {
     width: 300px;
 }
 
 button {
     margin: 15px 0px;
+    padding: 10px;
 }
 
 footer {
